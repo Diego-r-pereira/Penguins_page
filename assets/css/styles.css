@@ -275,7 +275,7 @@ img {
 
 .home__button{
   position: relative;
-  border: 2px solid hsl(158, 89%, 30%);
+  border: 2px solid hsl(240, 89%, 30%);
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -290,12 +290,12 @@ img {
 
 .home__button::before{
   content: '';
-  border: 2px solid hsl(158, 98%, 43%);
+  border: 2px solid hsl(240, 98%, 43%);
   width: 90px;
   height: 90px;
   position: absolute;
   border-radius: 50%;
-  box-shadow: 0 0 12px hsl(158, 98%, 43%);
+  box-shadow: 0 0 12px hsl(240, 98%, 43%);
   transition: .3s;
   animation: button 3s infinite;
 }
@@ -306,8 +306,8 @@ img {
 
 /* Button animate */
 @keyframes button {
-  0%{box-shadow: 0 0 12px hsl(158, 98%, 43%)}
-  50%{box-shadow: 0 0 24px hsl(158, 98%, 43%)}
+  0%{box-shadow: 0 0 12px hsl(240, 98%, 43%)}
+  50%{box-shadow: 0 0 24px hsl(240, 98%, 43%)}
 }
 
 /*=============== BUTTON ===============*/
@@ -690,7 +690,7 @@ img {
   .shape__big{width: 500px; height: 500px}
   .shape__small{width: 400px; height: 400px}
   .home__container{padding-top: 2rem}
-  .home__img{width: 380px}
+  .home__img{width:680px}
   .home__car{column-gap: 7rem}
   .home__car-icon{font-size: 1.25rem; margin-bottom: 1rem}
   .about__container{column-gap: 6rem; align-items: center}
@@ -705,6 +705,8 @@ img {
   .features__card{width: 127px; padding: .75rem 2.5rem}
   .features__card-1{left: -1rem}
   .features__card-2{right: -2.5rem}
+  .features__card-2 p{color: var(--first-color-alt)}
+  .features__card-2 h3{color: var(--first-color)}
   .features__card-3{bottom: 7rem; left: -1rem}
   .features__map{width: 650px; top: 11rem}
   .featured__container{padding-bottom: 2.5rem}
